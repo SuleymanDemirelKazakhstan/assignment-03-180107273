@@ -1,16 +1,48 @@
 <html>
 <head>
-<style>
-/* Write your code here */
-</style>
+  <style>
+    body{
+      display: flex;
+      flex-direction: row;
+    }
+
+
+
+
+    .left_part{
+      display:flex;
+      border:1px solid red;
+      flex-direction: column;
+      width: 400px;
+      height: 600px;
+      justify-content: center;
+      align-items: center;
+      font-size: 32px;
+      text-align: center;
+      letter-spacing: 1px;
+      background-color: red;
+      color: white;
+
+    }
+
+    .right_part{
+      display: flex;
+      flex-direction: column;
+      width:250px;
+      align-items: flex-end;
+    }
+
+  </style>
 </head>
 <body>
 <aside class="left_part">
   <h1>Web Technologies</h1>
+  <h4 style="margin-top:-10px;">Foundation of Web<br>2017 Fall</h4>
+
 </aside>
 <section class="right_part">
   <h3>Syllabus</h3>
-  <div class="">
+  <div class="right_part x">
     <ul>
       <li><a href="#">Week #1</a> Introduction to HTML</li>
       <li><a href="#">Week #2</a> CSS Basics</li>
@@ -21,4 +53,3 @@
 </section>
 </body>
 </html>
-
